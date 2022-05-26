@@ -1,0 +1,13 @@
+body { background-color:#9dad94; }
+
+h1 { color:#525E75;}
+
+h2 { color:#78938A}
+
+h3 { color:#92BA92}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
