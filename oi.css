@@ -1,14 +1,4 @@
-/*
-Isto é um comentário que nao interfere no doc. 
-Documento CSS é uma sequencia de regras a serem aplicadas a alguns elementos HTML.
 
-CORES!! VER ISTO: https://colorhunt.co/palette/f1ddbf525e7578938a92ba92
-
-*/ 
-
-/* Uma regra é constituida por: 
-    SELECTOR {PROPRIEDADE: VALOR; }
-*/
 
 body { background-color:#F1DDBF; }
 
