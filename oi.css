@@ -1,5 +1,6 @@
 
 
+
 body { background-color:#FFFFFF; }
 
 h1 { color: #1c1c1a;;}
@@ -14,10 +15,3 @@ header {
     align-items: center;
   }
 
-
-
-  @media screen and ( max-width:900px ) {
-
-    body { background-color: orange;}
-    
-  }
