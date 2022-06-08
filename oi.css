@@ -1,6 +1,3 @@
-
-
-
 body { background-color:#FFFFFF; }
 
 h1 { color: #1c1c1a;;}
@@ -9,4 +6,11 @@ h2 { color:#8AD167}
 
 h3 { color:#92BA92}
 
+.container {
+	display: flex;
+}
+
+.space-around {
+	justify-content: space-around;
+}
 
