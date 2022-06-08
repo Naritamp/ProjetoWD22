@@ -46,12 +46,12 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: greenyellow
+  color: rgb(105, 195, 95)
 }
 
 header input {
   padding: 8px 20px;
-  background-color: rgb(9, 209, 9);
+  background-color: rgb(45, 168, 45);
   color: white;
   +font-weight: 800;
   outline: none;
@@ -64,6 +64,6 @@ header input {
 
 header input:hover{
   transform: scale(1.09);
-  background-color:rgba(9, 209, 9, 0.683);
+  background-color:rgba(36, 161, 36, 0.683);
 }
 
