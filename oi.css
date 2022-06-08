@@ -8,9 +8,11 @@ h3 { color:#92BA92}
 
 .container {
 	display: flex;
+  flex-wrap: nowrap;
 }
 
 .space-around {
 	justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
