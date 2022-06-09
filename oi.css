@@ -1,68 +1,66 @@
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 768px) and (max-width: 1199.98px) 
+
+{}
+
+body {
+    margin-left: 20;
+    margin-right: 20px;
+    
+    background: url(fundo.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-.container {
-  width: 100%;
-  height: 100%;
-}
-
-header {
-  width: 100%;
-  padding: 20px;
-  justify-content: space-around
-}
-
-header h1 {
-  padding-top: 10px;
-  padding-left: 5px;
-}
-
-header h1 span {
-  color: #2da82d;
-}
-
-header ul {
-  margin: 10px;
-}
-
-header ul li {
-  padding: 5px 20px;
-  margin: 10px;
-  transition: all o.5s;
-}
-
-header ul li a {
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.705);
-  font-weight: 600;
-  transition: color ease-out 0.6s;
+  header h1 {
+    padding-left: 5px;
+    color: #476d70;
+  }
   
-}
+  .header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
 
-header ul li a:hover {
-  color: rgb(105, 195, 95)
-}
+  .logo {
+    display: flex;
+  }
 
-header input {
-  padding: 8px 20px;
-  background-color: rgb(45, 168, 45);
-  color: white;
-  font-weight: 800;
-  outline: none;
-  border: none;
-  margin-top: 10px;
-  font-size: 17px;
-  border-radius: 10px;
-  transition: all 0.7s;
-}
+  .menu {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
 
-header input:hover{
-  transform: scale(1.09);
-  background-color:rgba(36, 161, 36, 0.683);
-}
+  }
 
+  ul {
+    display: flex;
+    list-style-type: none;
+  
+  }
+
+  li {
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all o.5s;
+
+  }
+
+
+  header ul li a {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+    transition: color ease-out 0.6s;
+    outline: none;
+    text-decoration: none;
+    
+  }
+
+  header ul li a:hover {
+    color: rgb(105, 195, 95)
+  }
