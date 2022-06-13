@@ -117,7 +117,7 @@ body {
   
   .button:focus {
     outline: none;
-    border: 2px solid #4285f4;
+    border: 2px solid #276d18;
   }
   
   .button:not(:disabled) {
