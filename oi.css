@@ -66,6 +66,7 @@ body {
   .caixa {
     padding-right: 750px;
     padding-left: 100px;
+    display: flex;
   }
 
 
