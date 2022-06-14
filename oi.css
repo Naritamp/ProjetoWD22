@@ -10,6 +10,7 @@ body {
     background-position: center top;
     background-attachment: fixed;
     font-family: effra, Helvetica, Arial, sans-serif;
+    margin: 0px;
 }
 
 
@@ -70,6 +71,7 @@ header{
     padding-left: 100px;
     display: flex;
     background-color: #f4f3f0;
+    margin: 0px;
   }
 
   .texto {
